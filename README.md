@@ -10,7 +10,7 @@ It then forwards this data to the GUI for an easier interpretation giving user a
 Install necessary libraries 
 Just run the notebook and enter the two folder paths.
 
-###Explaination
+### Explaination
 The solution comprises of following steps: 
 1. Taking in input from user about two folders. (This can be changed later so that only one folder is compared to all existing folders, or just to compare two folders). This will be done through GUI.
 2. The program will then make a list of all files and subdirectories and store it in a list.
