@@ -10,6 +10,22 @@ It then forwards this data to the GUI for an easier interpretation giving user a
 Install necessary libraries 
 Just run the notebook and enter the two folder paths.
 
+### GUI Representation
+https://www.figma.com/file/w1rHRhFSKlhnCANLpo4PaW/SIFS?type=design&node-id=0%3A1&mode=design&t=jpEOtCU5USDCNIW2-1
+
+### Working Features: 
+Scanning files and subdirectories
+Creating lists and dictionaries for comparisons.
+Exporting dictionaries for later reference
+Currently, our code compares only two folders, scanning against a complete database will be implemented soon.
+Hashing functions: Both CRC32 and SHA256 are working.
+Exporting filename-hash dictionary
+Comparing hashes and listing duplicate files. (GUI integration pending)
+
+### Features Yet to be implemented: 
+Scanning against a complete database.
+GUI Integration
+
 ### Explaination
 The solution comprises of following steps: 
 1. Taking in input from user about two folders. (This can be changed later so that only one folder is compared to all existing folders, or just to compare two folders). This will be done through GUI.
